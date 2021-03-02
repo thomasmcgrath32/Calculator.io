@@ -75,15 +75,17 @@ header h2 {
   text-align:center;
 
 }
-.rev-button {
+.rev-button, .pal-button, .len-button,
+.upp-button, .low-button {
   border: black 1px solid;
   border-radius:5px;
   font-size:15px;
   font-weight:bold;
   cursor:pointer;
   text-align:center;
-  background-color:#e8d8c3;
+  background-color:#ebe9e9;
 }
+
 
 .is-zero, .is-clear {
   border: black 1px solid;
@@ -97,7 +99,7 @@ header h2 {
 }
 
 .is-clear {
-  background-color:#e8d8c3;
+  background-color:#1668ff;
 }
 #is-equals {
   border: black 1px solid;
@@ -107,7 +109,7 @@ header h2 {
   cursor:pointer;
   text-align:center;
   overflow:hidden;
-  background-color:#cc0000;
+  background-color:#00e645;
 }
 
 .is-input {
@@ -128,5 +130,5 @@ header h2 {
   cursor:pointer;
   text-align:center;
   overflow:hidden;
-  background-color:#e8d8c3;
+  background-color:#dbdada;
 }
