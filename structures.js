@@ -51,7 +51,7 @@ keys.addEventListener('click', (event) => {
   }
   if (target.classList.contains('cv-button')) {
     updateDisplay();
-    const input1 = document.getElementById('rec-input');
+    const input1 = document.getElementById('rev-input');
     countVowels(input1.value);
     updateDisplay();
   }
@@ -178,7 +178,6 @@ function removeVowels(input) {
   calculator.displayValue = str;
 }
 
-
 function bubbleSort(input) {
   var i,j,k,l;
   var x = [];
@@ -204,14 +203,14 @@ function bubbleSort(input) {
       }
     }
   }
-
- 
   calculator.displayValue = x;
 }
+
 /*
 function insertionSort(input) {
 
 }
+
 
 function selectionSort(input) {
 
