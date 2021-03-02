@@ -15,7 +15,6 @@ header h2 {
   background-color:grey;
   border-radius:10px;
   border: black 2px solid;
-
 }
 .top {
   border-bottom:black 2px solid;
@@ -32,11 +31,12 @@ header h2 {
   float:center;
   width:auto;
   
-  font-size:4vw;
-  text-align:right;
+  font-size:3vw;
+  text-align:center;
   border-radius:10px;
   border:black 2px solid;
   overflow:hidden;
+  white-space:initial;
 }
 
 .calculator-screen p {
@@ -76,14 +76,18 @@ header h2 {
 
 }
 .rev-button, .pal-button, .len-button,
-.upp-button, .low-button {
+.cv-button, .rmv-button, .bub-button, 
+.ins-button, .sel-button, .mer-button,
+.qui-button, .hea-button {
   border: black 1px solid;
   border-radius:5px;
   font-size:15px;
+  height:4vh;
   font-weight:bold;
   cursor:pointer;
   text-align:center;
   background-color:#ebe9e9;
+  grid-column: span 4;
 }
 
 
@@ -114,7 +118,7 @@ header h2 {
 
 .is-input {
   border: black 1px solid;
-  grid-column: span 3;
+  grid-column: span 4;
   padding:1vh;
   border-radius:5px;
   font-size:22px;
