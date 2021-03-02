@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<main>
+  <head>
+    <meta name = "Calculator.io">
+    <link rel = "stylesheet" name = "style" href = "./css/style.css">
+
+  </head>
+
+<body>
+<header>
+    <h2> Calculator.io </h2>
+</header>
+
+<div class = "calculator">
+  <div class = "top">
+
+      <input class = "calculator-screen" type = "input"></input>
+
+      <div class = "calculator-dropdown">
+        <form>
+          <select name = "structure" id = "structure" onchange = "init();">
+            <option value = "">Choose Operation Type</option>
+            <option value = "Arithmetic">Arithmetic</option>
+            <option value = "Strings">Strings</option>
+            <option value = "Sorting">Sorting</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div class = "bottom" id = "button" onchange = "updateDisplay();">
+      <button class = "is-clear" value = "clear">C</button>
+      <button class = "operator" value = "/" >/</button>
+      <button class = "calc-button" value = "7">7</button>
+      <button class = "calc-button" value = "8">8</button>
+      <button class = "calc-button" value = "9">9</button>
+      <button class = "operator" value = "x">x</button>
+      <button class = "calc-button" value = "4">4</button>
+      <button class = "calc-button" value = "5">5</button>
+      <button class = "calc-button" value = "6">6</button>
+      <button class = "operator" value = "-">-</button>
+      <button class = "calc-button" value = "1">1</button>
+      <button class = "calc-button" value = "2">2</button>
+      <button class = "calc-button" value = "3">3</button>
+      <button class = "operator" value = "+">&plus;</button>
+      <button class = "is-zero" value = "0">0</button>
+      <button class = "operator" value = "=" id = "is-equals">&equals;</button>
+
+    </div>
+</div>
+  </body>
+</html>
+<script src = "./structures.js"></script>
+</main>

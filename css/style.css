@@ -1,0 +1,132 @@
+header h2 {
+  margin-top:5vh;
+  text-align:center;
+  font-family:helvetica;
+  font-size:25px;
+}
+ form {
+   overflow:hidden;
+ }
+.calculator {
+  margin-right:39%;
+  margin-left:39%;
+  height:auto;
+  width:auto;
+  background-color:grey;
+  border-radius:10px;
+  border: black 2px solid;
+
+}
+.top {
+  border-bottom:black 2px solid;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+
+.calculator-screen {
+  margin:2vh;
+  height:15vh;
+
+  background-color:white;
+  float:center;
+  width:auto;
+  
+  font-size:4vw;
+  text-align:right;
+  border-radius:10px;
+  border:black 2px solid;
+  overflow:hidden;
+}
+
+.calculator-screen p {
+  padding-top:2vh;
+  padding-bottom:2vh;
+  text-align:center;
+}
+
+.calculator-dropdown{
+  text-align:center;
+  padding-bottom:2vh;
+}
+
+.bottom {
+  padding:3vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:2vh;
+}
+
+.calc-button {
+  border: black 1px solid;
+  padding:1vh;
+  border-radius:5px;
+  font-size:22px;
+  cursor:pointer;
+  text-align:center;
+  overflow:hidden;
+}
+.str-button {
+  border: black 1px solid;
+  border-radius:5px;
+  font-size:15px;
+  font-weight:bold;
+  cursor:pointer;
+  text-align:center;
+
+}
+.rev-button {
+  border: black 1px solid;
+  border-radius:5px;
+  font-size:15px;
+  font-weight:bold;
+  cursor:pointer;
+  text-align:center;
+  background-color:#e8d8c3;
+}
+
+.is-zero, .is-clear {
+  border: black 1px solid;
+  grid-column: span 3;
+  padding:1vh;
+  border-radius:5px;
+  font-size:22px;
+  cursor:pointer;
+  text-align:center;
+  overflow:hidden;
+}
+
+.is-clear {
+  background-color:#e8d8c3;
+}
+#is-equals {
+  border: black 1px solid;
+  padding:1vh;
+  border-radius:5px;
+  font-size:22px;
+  cursor:pointer;
+  text-align:center;
+  overflow:hidden;
+  background-color:#cc0000;
+}
+
+.is-input {
+  border: black 1px solid;
+  grid-column: span 3;
+  padding:1vh;
+  border-radius:5px;
+  font-size:22px;
+  cursor:pointer;
+  text-align:center;
+  overflow:hidden;
+}
+.operator {
+  border: black 1px solid;
+  padding:1vh;
+  border-radius:5px;
+  font-size:22px;
+  cursor:pointer;
+  text-align:center;
+  overflow:hidden;
+  background-color:#e8d8c3;
+}
