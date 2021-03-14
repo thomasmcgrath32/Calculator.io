@@ -200,6 +200,7 @@ function bubbleSort(input) {
          y = x[l + 1];
         x[l+1] = x[l];
         x[l] = y;
+        h
       }
     }
   }
@@ -207,8 +208,42 @@ function bubbleSort(input) {
 }
 
 /*
-function insertionSort(input) {
 
+3517
+
+3517
+1537
+1537
+1357
+
+1537
+1357
+1357
+
+
+function insertionSort(input) {
+  var i,j,k,l,m;
+  var x = [];
+  var y = "";
+  str = "";
+
+  for(i = 0; i <= input.length -1; i++) {
+    if (input[i] != ",") {
+      str += input[i];
+    }
+  }
+
+  for(j = 0; j <= str.length -1; j++) {
+    x[j] = str[j];
+  }
+
+  for(k = 0; k <= x.length - 1; k++)
+  l++;
+  if (x[k] < x[k+l])
+      y = x[k + 1];
+        x[k+1] = x[k];
+        x[k] = y;
+        l = 0;
 }
 
 
