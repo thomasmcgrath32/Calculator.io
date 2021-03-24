@@ -200,7 +200,6 @@ function bubbleSort(input) {
          y = x[l + 1];
         x[l+1] = x[l];
         x[l] = y;
-        h
       }
     }
   }
@@ -208,17 +207,6 @@ function bubbleSort(input) {
 }
 
 /*
-
-3517
-
-3517
-1537
-1537
-1357
-
-1537
-1357
-1357
 
 
 function insertionSort(input) {
